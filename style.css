@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.39);
+    box-shadow: 0 5px 10px rgba(97, 92, 92, 0.74);
+    text-align: center;
+}
+.container h1{
+    font-size: 7rem;
+    padding: 20px;
+}
+ 
+.digit_container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.digit_box{
+    display: inline-block;
+    background: rgba(10, 9, 9, 0.664);
+    border-radius: 5px;
+    height: 10rem;
+    width: 10rem;
+    text-align: center;
+    margin: 20px;
+}
+.digit_box p{
+    font-size: 7rem;
+    font-family: "Agdasima";
+}
+
+.digit_name_value p{
+    display: inline-block;
+    width: 17rem;
+    font-family: "Agdasima";
+    font-size: 2rem;
+}
+
+
+.date_details{
+    display: inline-block;
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.options button{
+    display: inline-block;
+    background:rgba(255, 255, 255, 0.39);
+    border-radius: 5px;
+    border-style: groove;
+    text-align: center;
+    width: 20rem;
+    margin: 10px;
+    font-size: 2rem;
+    font-family: "Agdasima";
+
+}
+
+.options button:hover{
+    box-shadow: 3px 3px rgba(34, 32, 32, 0.363);
+}
+
+.active{
+    box-shadow: 3px 3px rgba(34, 32, 32, 0.363);
+}

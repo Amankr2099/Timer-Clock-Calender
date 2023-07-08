@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: Open Sans;
+}
+.main{
+    width: 35rem;
+    background: rgba(245, 245, 245, 0.363);
+    border-radius: 20px;
+}
+.year-month-container{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 650;
+}
+.buttons{
+    font-size: 2rem;
+}
+
+.weeks-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 1.2rem;
+}
+
+.weeks-container p, .year-month-container p{
+    display: inline-block;
+    margin: 0.7rem;
+}
+
+.date-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.date-container p{
+    width: calc(100%/7);
+    margin-block: 0;
+    padding-block:0.8rem ;
+}
+.date-container p:hover{
+    color: rgb(61, 59, 59);
+}
+/* .live{
+    color: rgb(3, 56, 3);
+} */
